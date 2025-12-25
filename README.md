@@ -19,12 +19,12 @@
 Сервисы запускаются в отдельных контейнерах, связанных через Docker-сеть `app-network`. Бэкенд подключается к базе данных по хосту `db`.
 
 ## Инструкция по запуску
-    **Клонирование репозитория и переход в директорию проекта:**
+    **Клонирование репозитория и переход в директорию проекта**
 
-    ```Bash
+```Bash
     git clone *репозиторий
     cd lab-docker
-    ```
+```
 
 ## Скриншоты
 
@@ -38,9 +38,9 @@
 ### Git
 
 ```Bash
-git clone https://github.com/qxKnight/lab-docker.git
-cd lab-docker
-docker-compose up --build -d
+    git clone https://github.com/qxKnight/lab-docker.git
+    cd lab-docker
+    docker-compose up --build -d
 ```
 
 ## Сборка, запуск и тестирование
