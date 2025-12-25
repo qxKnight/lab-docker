@@ -46,19 +46,31 @@
 ## Сборка, запуск и тестирование
 
 **Запуск**
+```Bash
 docker-compose up --build -d
+```
 
 **Статус сервисов**
+```Bash
 docker-compose ps
+```
 
 **Эндпоинт бэкенда**
+```Bash
 curl http://localhost:8000/health
+```
 
 **Логи бэкенда - наличие ошибок подключения к БД**
+```Bash
 docker-compose logs backend
+```
 
 **Логи БД**
+```Bash
 docker-compose logs db
+```
 
 **Останов**
+```Bash
 docker-compose down -v
+```
