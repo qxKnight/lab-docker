@@ -38,3 +38,23 @@
 git clone https://github.com/qxKnight/lab-docker.git
 cd lab-docker
 docker-compose up --build -d
+
+## Сборка, запуск и тестирование
+
+**Запуск**
+docker-compose up --build -d
+
+**Статус сервисов**
+docker-compose ps
+
+**Эндпоинт бэкенда**
+curl http://localhost:8000/health
+
+**Логи бэкенда - наличие ошибок подключения к БД**
+docker-compose logs backend
+
+**Логи БД**
+docker-compose logs db
+
+**Останов**
+docker-compose down -v
